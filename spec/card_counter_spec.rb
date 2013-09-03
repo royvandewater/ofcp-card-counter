@@ -1,4 +1,4 @@
-require_relative '../lib/card_counter'
+require_relative '../lib/ofcp_card_counter/card_counter'
 
 describe CardCounter do
   describe 'probability_of_getting' do
