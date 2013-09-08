@@ -2,10 +2,8 @@ class OfcpCardCounter::CardCounter
   # Creates a new instance of CardCounter
   #
   # @param [Hash] options :turns_left:
-  # @option options [Number] :turns_left the number of cards yet to be dealt
-  #                                      to the player
-  # @option options [Array<String>]  :cards a collection containing the cards that
-  #                                 are already known
+  # @option options [Number] :turns_left the number of cards yet to be dealt to the player
+  # @option options [Array<String>]  :cards a collection containing the cards that are already known
   # @return [CardCounter] a fresh new instance of CardCounter
   def initialize(options={})
     @turns_left = options[:turns_left]
