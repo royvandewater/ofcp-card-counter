@@ -1,10 +1,10 @@
-require_relative '../lib/ofcp_card_counter/card_counter'
+require_relative '../lib/ofcp_card_counter'
 
-describe CardCounter do
+describe OfcpCardCounter::CardCounter do
   describe 'probability_of_getting' do
     context 'when 11 of 13 cards have already been dealt' do
       before :each do
-        @sut = CardCounter.new(
+        @sut = OfcpCardCounter::CardCounter.new(
           :turns_left => 2,
           :cards => ['2C',
                      '2H', '3H', '4H', '5H', '6H',
@@ -51,7 +51,7 @@ describe CardCounter do
 
     context 'when 10 of 13 cards have already been dealt' do
       before :each do
-        @sut = CardCounter.new(
+        @sut = OfcpCardCounter::CardCounter.new(
           :turns_left => 3,
           :cards  => [
             '2H', '3H', '4H', '5H', '6H',

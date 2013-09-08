@@ -1,4 +1,4 @@
-class CardCounter
+class OfcpCardCounter::CardCounter
   def initialize(options={})
     @turns_left = options[:turns_left]
     @cards      = options[:cards]
