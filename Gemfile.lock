@@ -17,6 +17,7 @@ GEM
     rspec-mocks (2.14.3)
     test_notifier (0.4.0)
       notifier
+    yard (0.8.7)
 
 PLATFORMS
   ruby
@@ -26,3 +27,4 @@ DEPENDENCIES
   autotest-doom
   autotest-growl
   rspec
+  yard
