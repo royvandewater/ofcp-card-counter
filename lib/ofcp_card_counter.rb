@@ -1,5 +1,5 @@
-require_relative 'lib/version'
-require_relative 'lib/card_counter'
+require_relative 'ofcp_card_counter/version'
+require_relative 'ofcp_card_counter/card_counter'
 
 module OfcpCardCounter
 end
