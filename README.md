@@ -1,4 +1,4 @@
-ofcp-card-counter
+Ofcp Card Counter
 =================
 
 Statistics calculations for Open Face Chinese Poker hands
